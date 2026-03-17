@@ -13,7 +13,6 @@ const Countries = ({countriesPromise}) => {
     const HandlevisitedFlag=(flag)=>{
       const newvisit=[...visitedFlag, flag]
       setVisitedFlag(newvisit)
-      console.log(flag);
       
     }
     return (
@@ -43,6 +42,8 @@ const Countries = ({countriesPromise}) => {
           }
           </div>
         </div>
+   
+        
     );
 };
 
